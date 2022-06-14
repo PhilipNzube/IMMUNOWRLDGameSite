@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="icon" href="./images/Immunocalypse-icon.png"/>
+    <link rel="icon" href="./images/Immunocalypse2-Icon.png"/>
     <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>
 IMMUNOWRLD
 </title>
 <style>
-    @media only screen and (min-width:1080px){
+    @media only screen and (min-width:1000px){
         body{
-            background-color: rgba(15, 14, 14, 0);
-            background:  rgba(15, 14, 14, 0) url("./images/BG6.png");
+            background:  rgb(37, 37, 37) url("./images/Background5.jpg") center 0 no-repeat;
+            background-size: cover;
             overflow-y: hidden;
             overflow-x: hidden;
             position: fixed;
@@ -51,7 +51,7 @@ IMMUNOWRLD
     top:-80px;
     height:20px;
     width:100%;
-    background-color:rgba(214, 25, 25, 0.322);
+    background:#e9000000 url("./images/BloodyScreenBG.png") 0 -10px repeat-x;
     border: 1px solid rgba(0, 0, 0, 0.514);
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.616) 5px 5px;
@@ -96,6 +96,11 @@ IMMUNOWRLD
     margin:auto;   
 }
 
+#LogoImg{
+    border: rgb(255, 255, 255) 1px solid;
+    border-radius: 50px;
+}
+
 #LogoText{
     color:rgb(189, 33, 33);
     font-family:'Courier New', Courier, monospace;
@@ -112,7 +117,7 @@ IMMUNOWRLD
     top:50px;
     left:150px;
     height: 180px;
-    width:330px;
+    width:30%;
 }
 
 #Gallary:hover{
@@ -160,37 +165,44 @@ IMMUNOWRLD
     left:100px;   
 }
 
-
+#Links{
+    position: relative;
+    bottom: 35px;
+    right: 3%;  
+}
 #Home{
-    color:rgb(189, 33, 33);
+    color:rgb(255, 0, 0);
     position: relative;
     bottom:38px; 
-    left:800px;
+    left:60%;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: grey underline 3px solid;
+    text-decoration: rgb(252, 251, 251) underline 3px solid;
     cursor:default;
+    text-shadow: #000 2px 2px;
 }
 
 #About{
-    color:grey;
+    color:rgb(252, 251, 251);
     position: relative;
     bottom:38px; 
-    left:900px;
+    left:70%;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     cursor:pointer;
+    text-shadow: #000 2px 2px;
 }
 
 #Contact{
-    color:grey;
+    color:rgb(252, 251, 251);
     position: relative;
     bottom:38px; 
-    left:1000px;
+    left:78%;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     cursor:pointer;
+    text-shadow: #000 2px 2px;
 }
 
 a{
-    color:grey;
+    color:rgb(252, 251, 251);
     text-decoration: none;
 }
 
@@ -251,45 +263,51 @@ a:hover{
     opacity: 0.1;
 }
 
+
+#Handler{
+    position: relative;
+    right: 7%;   
+}
+
 #CSText{
     position: relative;
     bottom: 250px;
-    left: 520px;
+    left: 46.5%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #CSText2{
     position: relative;
     bottom: 310px;
-    left: 850px;
+    left: 76%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #CSText3{
     position: relative;
     bottom: 190px;
-    left: 190px;
+    left: 16%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #CSText4{
     position: relative;
     bottom: 250px;
-    left: 520px;
+    left: 46.5%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #CSText5{
     position: relative;
     bottom: 310px;
-    left: 850px;
+    left: 76%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #Footer{
     height: 170px;
     width:100%;
-    background-color:rgba(214, 25, 25, 0.322);
+    background:#e9000000 url("./images/BloodyScreenBG.png") 0 -10px repeat-x;
     border: 1px solid rgba(0, 0, 0, 0.514);
     box-shadow: rgba(0, 0, 0, 0.616) 5px 5px;
     position: relative;
@@ -412,28 +430,30 @@ background:#000 transparent;
 
 #Socials{
     position: relative;
-    left: 900px;      
+    left: 70%;      
+}
+
+#FB{
+    position: relative;
+    left: -5%;    
 }
 
 #Insta{
     position: relative;
-    left: 20px;   
+    left: -3%;    
 }
 
 #Twitter{
     position: relative;
-    left: 40px;   
+    left: -1%;   
 }
 
 #LinkedIn{
     position: relative;
-    left: 60px;   
+    left: 1%;   
 }
 
-#Links{
-    position: relative;
-    bottom: 35px;   
-}
+
 
     }
 
@@ -445,13 +465,12 @@ background:#000 transparent;
     
 
 
-    @media only screen and (max-width:1080px) {
+    @media only screen and (max-width:1000px) {
         body{
-            background-color: rgba(15, 14, 14, 0);
             overflow-y: hidden;
             overflow-x: hidden;
-            background:  #000 url("./images/BG6.png") center 0 repeat-y;
-            position: fixed;
+            background:  rgb(37, 37, 37) url("./images/Background5.jpg") center 0 no-repeat;
+            background-size:cover;
         }
         #Cont{
             display: none;
@@ -476,7 +495,7 @@ background:#000 transparent;
     top:-80px;
     height:50px;
     width:100%;
-    background-color:rgba(214, 25, 25, 0.322);
+    background:#e9000000 url("./images/BloodyScreenBG.png") 0 -10px repeat-x;
     border: 1px solid rgba(0, 0, 0, 0.514);
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.616) 5px 5px;
@@ -500,6 +519,11 @@ background:#000 transparent;
     box-shadow: rgba(0, 0, 0, 0.616) 5px 5px;
     transition: all 5s ease-in-out; 
     display: none; 
+}
+
+#LogoImg{
+    border: rgb(255, 255, 255) 1px solid;
+    border-radius: 50px;
 }
 
 #LOADTEXT{
@@ -594,31 +618,34 @@ background:#000 transparent;
 
 
 #Home{
-    color:rgb(189, 33, 33);
+    color:rgb(255, 0, 0);
     position: relative;
     bottom:35px; 
     left:720px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: grey underline 3px solid;
+    text-decoration: rgb(252, 251, 251) underline 3px solid;
     cursor:default;
+    text-shadow: #000 2px 2px;
 }
 
 #About{
-    color:grey;
+    color:rgb(252, 251, 251);
     position: relative;
     bottom:35px; 
     left:770px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     cursor:pointer;
+    text-shadow: #000 2px 2px;
 }
 
 #Contact{
-    color:grey;
+    color:rgb(252, 251, 251);
     position: relative;
     bottom:35px; 
     left:820px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     cursor:pointer;
+    text-shadow: #000 2px 2px;
 }
 
 
@@ -731,7 +758,7 @@ a:hover{
 #Footer{
     height: 170px;
     width:100%;
-    background-color:rgba(214, 25, 25, 0.322);
+    background:#e9000000 url("./images/BloodyScreenBG.png") 0 -10px repeat-x;
     border: 1px solid rgba(0, 0, 0, 0.514);
     box-shadow: rgba(0, 0, 0, 0.616) 5px 5px;
     position: relative;
@@ -880,8 +907,8 @@ z-index: 1;
             background-color: rgba(15, 14, 14, 0);
             overflow-y:hidden;
             overflow-x: hidden;
-            background:  rgb(0, 0, 0) url("./images/BG6.png") center 0 repeat-y;
-            position: fixed;
+            background:  rgb(37, 37, 37) url("./images/Background5.jpg") center 0 no-repeat;
+            background-size:cover;
         }
         #Cont{
             display: none;
@@ -905,7 +932,7 @@ z-index: 1;
     top:-80px;
     height:50px;
     width:100%;
-    background-color:rgba(214, 25, 25, 0.322);
+    background:#e9000000 url("./images/BloodyScreenBG.png") 0 -10px repeat-x;
     border: 1px solid rgba(0, 0, 0, 0.514);
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.616) 5px 5px;
@@ -929,6 +956,11 @@ z-index: 1;
     box-shadow: rgba(0, 0, 0, 0.616) 5px 5px;
     transition: all 5s ease-in-out; 
     display: none; 
+}
+
+#LogoImg{
+    border: rgb(255, 255, 255) 1px solid;
+    border-radius: 50px;
 }
 
 #LOADTEXT{
@@ -1033,28 +1065,31 @@ z-index: 1;
     left:700px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
-    text-decoration: grey underline 3px solid;
+    text-decoration: rgb(252, 251, 251) underline 3px solid;
     cursor:default;
+    text-shadow: #000 2px 2px;
 }
 
 #About{
-    color:grey;
+    color:rgb(252, 251, 251);
     position: relative;
     bottom:35px; 
     left:750px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
     cursor:pointer;
+    text-shadow: #000 2px 2px;
 }
 
 #Contact{
-    color:grey;
+    color:rgb(252, 251, 251);
     position: relative;
     bottom:35px; 
     left:790px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
     cursor:pointer;
+    text-shadow: #000 2px 2px;
 }
 
 
@@ -1172,7 +1207,7 @@ a:hover{
 #Footer{
     height: 170px;
     width:100%;
-    background-color:rgba(214, 25, 25, 0.322);
+    background:#e9000000 url("./images/BloodyScreenBG.png") 0 -10px repeat-x;
     border: 1px solid rgba(0, 0, 0, 0.514);
     box-shadow: rgba(0, 0, 0, 0.616) 5px 5px;
     position: relative;
@@ -1399,13 +1434,13 @@ if(document.getElementById("Cont").requestFullscreen){
 function Home(){
     document.body.style.overflowY="scroll";
     document.getElementById("Home").style.textDecoration="underline";
-                document.getElementById("Home").style.textDecorationColor="grey";
+                document.getElementById("Home").style.textDecorationColor="rgb(252, 251, 251)";
                 document.getElementById("Home").style.textDecorationThickness="3px";
-                document.getElementById("Home").style.color="rgb(189, 33, 33)";
+                document.getElementById("Home").style.color="rgb(255, 0, 0)";
                 document.getElementById("Contact").style.textDecoration="none";
-                document.getElementById("Contact").style.color="grey";
+                document.getElementById("Contact").style.color="rgb(252, 251, 251)";
                 document.getElementById("About").style.textDecoration="none";
-                document.getElementById("About").style.color="grey"; 
+                document.getElementById("About").style.color="rgb(252, 251, 251)"; 
                 document.getElementById("ContactPanel").style.display="none"; 
             document.getElementById("AboutPanel").style.display="none";
             document.getElementById("Home").style.cursor="default";
@@ -1418,13 +1453,13 @@ function Home(){
             if(AClickNo==0){
                 CClickNo=0;
                 document.getElementById("About").style.textDecoration="underline";
-                document.getElementById("About").style.textDecorationColor="grey";
+                document.getElementById("About").style.textDecorationColor="rgb(252, 251, 251)";
                 document.getElementById("About").style.textDecorationThickness="3px";
-                document.getElementById("About").style.color="rgb(189, 33, 33)";
+                document.getElementById("About").style.color="rgb(255, 0, 0)";
                 document.getElementById("Home").style.textDecoration="none";
-                document.getElementById("Home").style.color="grey";
+                document.getElementById("Home").style.color="rgb(252, 251, 251)";
                 document.getElementById("Contact").style.textDecoration="none";
-                document.getElementById("Contact").style.color="grey";
+                document.getElementById("Contact").style.color="rgb(252, 251, 251)";
             document.getElementById("AboutPanel").style.display="block"; 
             document.getElementById("ContactPanel").style.display="none"; 
             document.getElementById("Home").style.cursor="pointer";
@@ -1442,11 +1477,11 @@ function Home(){
             document.getElementById("AboutPanel").style.display="none"; 
             document.getElementById("ContactPanel").style.display="none";
             document.getElementById("Home").style.textDecoration="underline";
-                document.getElementById("Home").style.textDecorationColor="grey";
+                document.getElementById("Home").style.textDecorationColor="rgb(252, 251, 251)";
                 document.getElementById("Home").style.textDecorationThickness="3px";
-                document.getElementById("Home").style.color="rgb(189, 33, 33)";
+                document.getElementById("Home").style.color="rgb(255, 0, 0)";
                 document.getElementById("About").style.textDecoration="none";
-                document.getElementById("About").style.color="grey"; 
+                document.getElementById("About").style.color="rgb(252, 251, 251)"; 
                 document.getElementById("Home").style.cursor="default";
         }
 
@@ -1456,13 +1491,13 @@ function Home(){
             if(CClickNo==0){
                 AClickNo=0;
                 document.getElementById("Contact").style.textDecoration="underline";
-                document.getElementById("Contact").style.textDecorationColor="grey";
+                document.getElementById("Contact").style.textDecorationColor="rgb(252, 251, 251)";
                 document.getElementById("Contact").style.textDecorationThickness="3px";
-                document.getElementById("Contact").style.color="rgb(189, 33, 33)";
+                document.getElementById("Contact").style.color="rgb(255, 0, 0)";
                 document.getElementById("Home").style.textDecoration="none";
-                document.getElementById("Home").style.color="grey";
+                document.getElementById("Home").style.color="rgb(252, 251, 251)";
                 document.getElementById("About").style.textDecoration="none";
-                document.getElementById("About").style.color="grey";
+                document.getElementById("About").style.color="rgb(252, 251, 251)";
             document.getElementById("ContactPanel").style.display="block"; 
             document.getElementById("AboutPanel").style.display="none"; 
             document.getElementById("Home").style.cursor="pointer"; 
@@ -1480,11 +1515,11 @@ function Home(){
             document.getElementById("ContactPanel").style.display="none"; 
             document.getElementById("AboutPanel").style.display="none";
             document.getElementById("Home").style.textDecoration="underline";
-                document.getElementById("Home").style.textDecorationColor="grey";
+                document.getElementById("Home").style.textDecorationColor="rgb(252, 251, 251)";
                 document.getElementById("Home").style.textDecorationThickness="3px";
                 document.getElementById("Home").style.color="rgb(189, 33, 33)";
                 document.getElementById("Contact").style.textDecoration="none";
-                document.getElementById("Contact").style.color="grey";
+                document.getElementById("Contact").style.color="rgb(252, 251, 251)";
                 document.getElementById("Home").style.cursor="default";
         }
     </script>
@@ -1500,7 +1535,7 @@ function Home(){
                 </div>
             <div id="MainContBG">
                 <header>
-       <div id="Logo"> <a id="NR" href="NextRelease.html"><img src="./images/Immunocalypse2-Icon.png"  width="80px" height="80px"/></a><div id="LogoText"><h1>IMMUNOWRLD</h1></div></div> 
+       <div id="Logo"> <a id="NR" href="NextRelease.html"><img id="LogoImg" src="./images/Immunocalypse2-Icon.png"  width="80px" height="80px"/></a><div id="LogoText"><h1>IMMUNOWRLD</h1></div></div> 
     <div id="TopBar">
     <div id="Links">
     <h3><a id="Home" onclick="Home()">HOME</a>
@@ -1513,7 +1548,9 @@ function Home(){
         <div id="Divide1"></div>
         <div id="Divide2"></div>
         </div>
-    <div id="Overlay"><img class="Released" id="Gallary" onclick="OpenGame1()" src="./images/GameName.png"  width="200px" height="150px"/> 
+    <div id="Overlay">
+        <div id="Handler">
+        <img class="Released" id="Gallary" onclick="OpenGame1()" src="./images/GameName.png"  width="200px" height="150px"/> 
         <img class="ComingSoon" id="Gallary" src="./images/GameName2.png"  width="200px" height="150px"/>
         <img class="ComingSoon2" id="Gallary" src="./images/Gallary2.png"  width="200px" height="150px"/>
         <img class="ComingSoon3" id="Gallary" src="./images/Gallary3.png"  width="200px" height="150px"/>
@@ -1524,7 +1561,7 @@ function Home(){
         <h1 id="CSText3">COMING SOON</h1>
         <h1 id="CSText4">COMING SOON</h1>
         <h1 id="CSText5">COMING SOON</h1>
-        
+        </div>
 </div>
 <div id="ContactPanel"><p id="ContactContent"><br/><br/>Phone No: 09016482578<br/><br/><b>SOCIAL MEDIA:</b><br/>Twitter: @Philip_nzube<br/><br/>Whatsapp: 09029751915<br/><br/>Instagram: philinstadev<br/><br/>Facebook: Philip Nzubechukwu</p></div>
 <div id="AboutPanel"><p id="AboutContent"><br/><br/><br/><br/><br/><b>This is where you can find all the games created by Onwubalili Philip Nzube.<br/>All IMMUNOWRLD games are connected.  </b></p></div>
